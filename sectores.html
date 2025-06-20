@@ -11,7 +11,7 @@
       google.charts.setOnLoadCallback(drawSheetName);
 
       function drawSheetName() {
-        var queryString = encodeURIComponent('SELECT C, D OFFSET 0');
+        var queryString = encodeURIComponent('SELECT B, C OFFSET 0');
         // LIMIT 5 significa que va a tomar 5 filas consecutivas
         // Como la primera fila es la cabecera no se cuenta
         // OFFSET 0 sería la segunda fila y OFFSET 8 la fila 10
